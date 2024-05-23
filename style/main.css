@@ -1,4 +1,36 @@
 @font-face {
     font-family: Inter;
-    src: url(./font/Inter-Regular.ttf);
+    src: url(../assets/Inter.ttf);
   }
+*{
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+}
+body {
+    margin: 0;
+}
+.lg-screen{
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topNavContainer{
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    padding: 28px 0;
+}
+.topNavLinksContainer{
+    width: 20%;
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+}
