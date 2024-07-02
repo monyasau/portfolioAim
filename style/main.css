@@ -17,12 +17,16 @@ body {
 }
 .topNavContainer{
     flex-direction: row;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #eee;
     padding: 28px 0;
 }
 .topNavLinksContainer{
     width: 20%;
     align-items: center;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 800;
 }
 .justify-between{
     justify-content: space-between;
@@ -30,7 +34,23 @@ body {
 .flex{
     display: flex;
 }
-.logo {
-    font-size: 40px;
+main {
+    padding: 100px 0;
+    border-bottom: #eee 1px solid;
+}
+.introTexts {
+    align-items: center;
+    width: 50%;
+}
+.firstSectionContent span{
+    font-size: 24px;
+    display: block;
+    margin: 30px 0;
+}
+.dynamicContent{
+    font-size: 26px;
     font-weight: 800;
+}
+.rounded{
+    border-radius: 10px;
 }
