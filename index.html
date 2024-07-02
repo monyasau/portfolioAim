@@ -1,20 +1,45 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
     <title>Olanrewaju Olajide - monyasau</title>
-</head>
-<body>
+    <script src="./script/index.js" defer="false"></script>
+  </head>
+  <body>
     <div class="topNavContainer" aria-label="nav">
-        <div class="lg-screen flex justify-between">
-            <span class="logo">OLANREWAJU OLAJIDE</span>
-            <div class="flex topNavLinksContainer justify-between">
-                <a href="#">Here</a>
-                <a href="#">Here</a>
-                <a href="#">Here</a>
+      <div class="xl-screen flex justify-between">
+        <span class="logo">OLANREWAJU OLAJIDE</span>
+        <div class="flex topNavLinksContainer justify-between">
+          <a href="#">Here</a>
+          <a href="#">Here</a>
+          <a href="#">Here</a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div aria-label="first section" class="xl-screen justify-between flex">
+        <div class="introTexts flex">
+            <div class="firstSectionContent">
+              <h1 data-testid="slackDisplayName">Monyasau</h1>
+
+              <span> A dedicated and committed mobile, frontend and backend developer </span>
+
+              <span style="">Week Day: <span data-testid="currentDay" style="display: inline;" class="dynamicContent" id="currentDay"></span></span>
+              <span style="display: inline;">Current Time: <span data-testid="currentTimeUTC" style="display: inline;" class="dynamicContent" id="currentTime"></span></span>
+              <span data-testid="slackEmail" id="slackEmail">Olajide.m.olanrewaju@gmail.com</span>
             </div>
         </div>
-    </div>
-    </body>
+
+        <div>
+          <img
+            loading="lazy"
+            data-testid="slackProfilePicture"
+            src="./assets/passport.jpg"
+            alt="slackProfilePicture"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
