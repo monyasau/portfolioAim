@@ -13,10 +13,10 @@ const updateTimeAndDay = () => {
 setInterval(() => updateTimeAndDay(), 1000);
 updateTimeAndDay();
 
-let goal = [
+let goals = [
   {
     title: "Open source contribution ",
-    content: "i plan on contributing to more Open Source Projects",
+    content: "i plan on contributing to more Open Source Projects to grow my skills",
   },
   {
     title: "Developer role ",
@@ -28,12 +28,20 @@ let goal = [
     content: "I plan on improving my skills in both mobile, frontend and backend environment",
   },
   {
-    title: "Networking ",
-    content: "Contribute to Open Source Projects",
+    title: "Network with other people",
+    content: "Build connections with peers to learn and grow together",
   },
   {
     title: " AI technology ",
     content: "Explore advancements in AI technology",
+  },
+  {
+    title: " Start a tech blog to share knowledge and experiences",
+    content: "I want to Write articles to document my journey and help others learn.",
+  },
+  {
+    title: " Participate in hackathons and coding competitions ",
+    content: "I plan to Engage in competitive coding to sharpen problem-solving skills.",
   },
 
   {
