@@ -54,3 +54,25 @@ main {
 .rounded{
     border-radius: 10px;
 }
+.goalAncestor{
+    padding: 50px;
+    border-bottom: #eee solid 1px;
+}
+.goalsContainer{
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 28%;
+}
+footer{
+    
+}
