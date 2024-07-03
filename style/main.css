@@ -1,78 +1,85 @@
 @font-face {
-    font-family: Inter;
-    src: url(../assets/Inter.ttf);
-  }
-*{
-    text-decoration: none;
-    color: black;
-    font-family: Inter;
+  font-family: Inter;
+  src: url(../assets/Inter.ttf);
+}
+* {
+  text-decoration: none;
+  color: black;
+  font-family: Inter;
 }
 body {
-    margin: 0;
+  margin: 0;
 }
-.xl-screen{
-    max-width: 1280px;
-    margin-right: auto;
-    margin-left: auto;
+.xl-screen {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.topNavContainer{
-    flex-direction: row;
-    border-bottom: 1px solid #eee;
-    padding: 28px 0;
+.topNavContainer {
+  flex-direction: row;
+  border-bottom: 1px solid #eee;
+  padding: 28px 0;
 }
-.topNavLinksContainer{
-    width: 20%;
-    align-items: center;
+.topNavLinksContainer {
+  width: 20%;
+  align-items: center;
 }
 .logo {
-    font-size: 40px;
-    font-weight: 800;
+  font-size: 40px;
+  font-weight: 800;
 }
-.justify-between{
-    justify-content: space-between;
+.justify-between {
+  justify-content: space-between;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 main {
-    padding: 100px 0;
-    border-bottom: #eee 1px solid;
+  padding: 100px 0;
+  border-bottom: #eee 1px solid;
 }
 .introTexts {
-    align-items: center;
-    width: 50%;
+  align-items: center;
+  width: 50%;
 }
-.firstSectionContent span{
-    font-size: 24px;
-    display: block;
-    margin: 30px 0;
+.firstSectionContent span {
+  font-size: 24px;
+  display: block;
+  margin: 30px 0;
 }
-.dynamicContent{
-    font-size: 26px;
-    font-weight: 800;
+.dynamicContent {
+  font-size: 26px;
+  font-weight: 800;
 }
-.rounded{
-    border-radius: 10px;
+.rounded {
+  border-radius: 10px;
 }
-.goalAncestor{
-    padding: 50px;
-    border-bottom: #eee solid 1px;
+.goalAncestor {
+  padding: 50px;
+  border-bottom: #eee solid 1px;
 }
-.goalsContainer{
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.goalsContainer {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.card{
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    width: 28%;
+.card {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 28%;
 }
-footer{
-    
+footer div {
+  justify-content: space-between;
+}
+.footerLinksContainer {
+  align-items: center;
+  gap: 20px;
+}
+.footerLinksContainer a {
+  font-size: 22px;
 }
