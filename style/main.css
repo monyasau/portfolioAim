@@ -1,85 +1,205 @@
 @font-face {
-  font-family: Inter;
-  src: url(../assets/Inter.ttf);
-}
-* {
-  text-decoration: none;
-  color: black;
-  font-family: Inter;
-}
-body {
-  margin: 0;
-}
-.xl-screen {
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.topNavContainer {
-  flex-direction: row;
-  border-bottom: 1px solid #eee;
-  padding: 28px 0;
-}
-.topNavLinksContainer {
-  width: 20%;
-  align-items: center;
-}
-.logo {
-  font-size: 40px;
-  font-weight: 800;
-}
-.justify-between {
-  justify-content: space-between;
-}
-.flex {
-  display: flex;
-}
-main {
-  padding: 100px 0;
-  border-bottom: #eee 1px solid;
-}
-.introTexts {
-  align-items: center;
-  width: 50%;
-}
-.firstSectionContent span {
-  font-size: 24px;
-  display: block;
-  margin: 30px 0;
-}
-.dynamicContent {
-  font-size: 26px;
-  font-weight: 800;
-}
-.rounded {
-  border-radius: 10px;
-}
-.goalAncestor {
-  padding: 50px;
-  border-bottom: #eee solid 1px;
-}
-.goalsContainer {
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.card {
-  text-align: center;
-  justify-content: center;
-  padding: 20px;
-  border: 1px solid #ddd;
-  width: 28%;
-}
-footer div {
-  justify-content: space-between;
-}
-.footerLinksContainer {
-  align-items: center;
-  gap: 20px;
-}
-.footerLinksContainer a {
-  font-size: 22px;
-}
+    font-family: Inter;
+    src: url(../assets/Inter.ttf);
+  }
+  
+  * {
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .xl-screen {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .topNavContainer {
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+    padding: 28px 0;
+  }
+  
+  .topNavLinksContainer {
+    width: 20%;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  main {
+    padding: 100px 0;
+    border-bottom: #eee 1px solid;
+  }
+  
+  .introTexts {
+    align-items: center;
+    width: 50%;
+  }
+  
+  .firstSectionContent span {
+    font-size: 24px;
+    display: block;
+    margin: 30px 0;
+  }
+  
+  .dynamicContent {
+    font-size: 26px;
+    font-weight: 800;
+  }
+  
+  .rounded {
+    border-radius: 10px;
+  }
+  
+  .goalAncestor {
+    padding: 50px;
+    border-bottom: #eee solid 1px;
+  }
+  
+  .goalsContainer {
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 28%;
+  }
+  
+  footer div {
+    justify-content: space-between;
+  }
+  
+  .footerLinksContainer {
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footerLinksContainer a {
+    font-size: 22px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 1200px) {
+    .firstSection{
+        flex-wrap: wrap;
+    }
+    .xl-screen{
+        padding: 10px;
+    }
+    .topNavLinksContainer {
+        display: none;
+    }
+  
+    .introTexts {
+      width: 60%;
+    }
+  
+    .card {
+      width: 45%;
+    }
+  
+    .footerLinksContainer a {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .topNavLinksContainer {
+      width: 40%;
+    }
+  
+    .introTexts {
+      width: 70%;
+    }
+  
+    .card {
+      width: 48%;
+    }
+  
+    .footerLinksContainer a {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .topNavContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .topNavLinksContainer {
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+  
+    .introTexts {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .goalsContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  
+    .footerLinksContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footerLinksContainer a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .topNavLinksContainer {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .goalAncestor {
+      padding: 20px;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .footerLinksContainer a {
+      font-size: 14px;
+    }
+  }
+  
