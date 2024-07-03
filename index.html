@@ -11,24 +11,44 @@
       <div class="xl-screen flex justify-between">
         <span class="logo">OLANREWAJU OLAJIDE</span>
         <div class="flex topNavLinksContainer justify-between">
-          <a href="#">Here</a>
-          <a href="#">Here</a>
-          <a href="#">Here</a>
+          <a href="#intro">Intro</a>
+          <a href="#goalsContainer">My goals</a>
+          <a href="#footer">Footer</a>
         </div>
       </div>
     </div>
     <main>
       <div aria-label="first section" class="xl-screen justify-between flex">
-        <div class="introTexts flex">
-            <div class="firstSectionContent">
-              <h1 data-testid="slackDisplayName">Monyasau</h1>
+        <div class="introTexts flex" id="intro">
+          <div class="firstSectionContent">
+            <h1 data-testid="slackDisplayName">Monyasau</h1>
 
-              <span> A dedicated and committed mobile, frontend and backend developer </span>
+            <span>
+              A dedicated and committed mobile, frontend and backend developer
+            </span>
 
-              <span style="">Week Day: <span data-testid="currentDay" style="display: inline;" class="dynamicContent" id="currentDay"></span></span>
-              <span style="display: inline;">Current Time: <span data-testid="currentTimeUTC" style="display: inline;" class="dynamicContent" id="currentTime"></span></span>
-              <span data-testid="slackEmail" id="slackEmail">Olajide.m.olanrewaju@gmail.com</span>
-            </div>
+            <span style=""
+              >Week Day:
+              <span
+                data-testid="currentDay"
+                style="display: inline"
+                class="dynamicContent"
+                id="currentDay"
+              ></span
+            ></span>
+            <span style="display: inline"
+              >Current Time:
+              <span
+                data-testid="currentTimeUTC"
+                style="display: inline"
+                class="dynamicContent"
+                id="currentTime"
+              ></span
+            ></span>
+            <span data-testid="slackEmail" id="slackEmail"
+              >Olajide.m.olanrewaju@gmail.com</span
+            >
+          </div>
         </div>
 
         <div>
@@ -41,12 +61,14 @@
         </div>
       </div>
     </main>
-    <div>
-        <div class="xl-screen">
-            <h1>My Tech Goals for the Next 2 Years</h1>
-            <div class="card"></div>
-        </div>
-
+    <div class="goalAncestor">
+      <div class="xl-screen">
+        <h1>My Tech Goals for the Next 2 Years</h1>
+        <div class="goalsContainer" id="goalsContainer"></div>
+      </div>
     </div>
+    <footer>
+        
+    </footer>
   </body>
 </html>
